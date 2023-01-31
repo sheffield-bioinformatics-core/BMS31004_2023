@@ -88,12 +88,13 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 
 ## Materials
 
-
+<!--
 - [Notes for practical session](week3.nb.html)
 - Solution to in-class exercise
 - [In-class final markdown](week3_final_code.Rmd)
 - [Weekly Exercise](exercises/week3.nb.html)
 - Solution to Weekly Exercise
+-->
 
 # Week 4 - Differential Expression for RNA-seq
 
@@ -106,12 +107,12 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 
 
 ## Materials
-
+<!--
 - [Notes for practical session](week4.nb.html)
 - Solution to in-class exercises
 - [Weekly Exercise](exercises/week4.nb.html)
 - Solution to Weekly Exercise
-
+-->
 # Week 5 - Visualisation methods for RNA-seq data
 
 ## Learning outcomes
@@ -126,10 +127,12 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 
 ## Materials
 
+<!--
 - [Notes for practical session](week5.nb.html)
 - Solution to in-class exercises
 - [Weekly Exercise](exercises/week5.nb.html)
 - Solution to Weekly Exercise
+-->
 
 # Week 6 - Pathways and further downstream analysis
 
@@ -152,7 +155,8 @@ BiocManager::install("clusterProfiler")
 
 ## Materials
 
-
+<!--
 - [Notes for practical session](week6.nb.html)
 - Solution to in-class exercises
 - [Minimal Analysis Workflow](minimal_workflow.Rmd)
+-->
