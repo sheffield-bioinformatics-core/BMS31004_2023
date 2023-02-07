@@ -47,7 +47,7 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 
 ## Materials
 
-<!--- [Course Overview Slides](https://docs.google.com/presentation/d/12VIuZvCNJWTnGPl6teevTzw8B4vF7zIQima4ikjWaNw/edit?usp=sharing)-->
+- [Course Overview Slides](https://docs.google.com/presentation/d/12VIuZvCNJWTnGPl6teevTzw8B4vF7zIQima4ikjWaNw/edit?usp=sharing)
 - [R Crash Course I](r_intro_1.nb.html)
 - [R Crash Course II](r_intro_2.nb.html)
 - R Crash Course II - Solutions
