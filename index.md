@@ -143,15 +143,6 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 - Identify over-represented pathways - given a set of differentially-expressed genes
 - Identify pathways with a tendancy to be over- or under-expressed; without having to use an p-value cut-offs 
 
-## Setup
-
-Please run this code before the workshop to install a required package
-
-```
-packageurl <- "https://cran.r-project.org/src/contrib/Archive/rvcheck/rvcheck_0.1.8.tar.gz"
-install.packages(packageurl, repos=NULL, type="source")
-BiocManager::install("clusterProfiler")
-```
 
 ## Materials
 
