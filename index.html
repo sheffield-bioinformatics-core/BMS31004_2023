@@ -363,23 +363,17 @@ overflow-y: auto;
 border: 1px solid #ddd;
 border-radius: 4px;
 }
-.tabset-dropdown > .nav-tabs > li.active:before {
-content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+content: "\e259";
 font-family: 'Glyphicons Halflings';
 display: inline-block;
 padding: 10px;
 border-right: 1px solid #ddd;
 }
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-content: "";
-border: none;
-}
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-content: "";
+content: "\e258";
 font-family: 'Glyphicons Halflings';
-display: inline-block;
-padding: 10px;
-border-right: 1px solid #ddd;
+border: none;
 }
 .tabset-dropdown > .nav-tabs > li.active {
 display: block;
@@ -527,7 +521,8 @@ Generation Sequencing (Illumina) An Introduction - Henrik’s Lab</a></li>
 <h2>Materials</h2>
 <ul>
 <li><a href="r_intro_3.nb.html">R Crash Course III</a></li>
-<li>R Crash Course III - Solutions</li>
+<li><a href="https://sbc.shef.ac.uk/r-online/part3-solution.nb.html">R
+Crash Course III - Solutions</a></li>
 <li><a href="rnaseq_intro.nb.html">Introduction to RNA-seq</a></li>
 <li><a href="exercises/r_intro.nb.html#Part2">Exercises - PART
 2</a></li>
