@@ -90,11 +90,11 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 
 ## Materials
 
-<!--
+
 - [Notes for practical session](week3.nb.html)
-- Solution to in-class exercise
-- [In-class final markdown](week3_final_code.Rmd)
 - [Weekly Exercise](exercises/week3.nb.html)
+<!--- Solution to in-class exercise
+- [In-class final markdown](week3_final_code.Rmd)
 - Solution to Weekly Exercise
 -->
 
