@@ -77,8 +77,7 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 - [R Crash Course III - Solutions](https://sbc.shef.ac.uk/r-online/part3-solution.nb.html)
 - [Introduction to RNA-seq](rnaseq_intro.nb.html)
 - [Exercises - PART 2](exercises/r_intro.nb.html#Part2)
-- [R Intro Exercise Part 1 Solutions](solutions/r_intro_part1.nb.html)
-- [R Intro Exercise Part 2 Solutions](solutions/r_intro_part2.nb.html)
+- [R Intro Exercise Solutions](solutions/r_intro.nb.html)
 
 
 # Week 3 - Importing RNA-seq counts into R and quality assessment
