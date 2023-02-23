@@ -99,10 +99,7 @@ BiocManager::install("DESeq2")
 - [RNA-seq data](https://github.com/sheffield-bioinformatics-core/BMS31004_2023/raw/main/BMS31004.zip)
 - [Notes for practical session](week3.nb.html)
 - [Weekly Exercise](exercises/week3.nb.html)
-<!--- Solution to in-class exercise
 - [In-class final markdown](week3_final_code.Rmd)
-- Solution to Weekly Exercise
--->
 
 # Week 4 - Differential Expression for RNA-seq
 
