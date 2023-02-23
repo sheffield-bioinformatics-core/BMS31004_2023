@@ -33,7 +33,7 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 # Course Data
 
 - [R crash course data](r_crash_course.zip)
-- [RNA-seq data](bms31004.zip)
+- [RNA-seq data](https://github.com/sheffield-bioinformatics-core/BMS31004_2023/raw/main/BMS31004.zip)
 
 # Week 1 - Introduction to R
 
@@ -96,7 +96,7 @@ install.packages("BiocManager")
 BiocManager::install("tximport")
 BiocManager::install("DESeq2")
 ```
-- [RNA-seq data](bms31004.zip)
+- [RNA-seq data](https://github.com/sheffield-bioinformatics-core/BMS31004_2023/raw/main/BMS31004.zip)
 - [Notes for practical session](week3.nb.html)
 - [Weekly Exercise](exercises/week3.nb.html)
 <!--- Solution to in-class exercise
