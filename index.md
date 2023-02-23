@@ -90,6 +90,12 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 
 ## Materials
 
+Please enter these commands in R when directed in order to install some required packages
+```
+install.packages("BiocManager")
+BiocManager::install("tximport")
+BiocManager::install("DESeq2")
+```
 - [RNA-seq data](bms31004.zip)
 - [Notes for practical session](week3.nb.html)
 - [Weekly Exercise](exercises/week3.nb.html)
