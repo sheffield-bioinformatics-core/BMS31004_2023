@@ -90,7 +90,7 @@ email: [m.j.dunning@sheffield.ac.uk](m.j.dunning@sheffield.ac.uk)
 
 ## Materials
 
-
+- [RNA-seq data](bms31004.zip)
 - [Notes for practical session](week3.nb.html)
 - [Weekly Exercise](exercises/week3.nb.html)
 <!--- Solution to in-class exercise
