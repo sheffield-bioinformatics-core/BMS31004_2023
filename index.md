@@ -100,6 +100,7 @@ BiocManager::install("DESeq2")
 - [Notes for practical session](week3.nb.html)
 - [Weekly Exercise](exercises/week3.nb.html)
 - [In-class final markdown](week3_final_code.Rmd)
+- [Solution to weekly exercise](solutions/week3.nb.html)
 
 # Week 4 - Differential Expression for RNA-seq
 
@@ -112,12 +113,14 @@ BiocManager::install("DESeq2")
 
 
 ## Materials
-<!--
+
 - [Notes for practical session](week4.nb.html)
-- Solution to in-class exercises
 - [Weekly Exercise](exercises/week4.nb.html)
+
+<!--- Solution to in-class exercises
 - Solution to Weekly Exercise
 -->
+
 # Week 5 - Visualisation methods for RNA-seq data
 
 ## Learning outcomes
