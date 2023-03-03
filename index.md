@@ -104,6 +104,8 @@ BiocManager::install("DESeq2")
 
 # Week 4 - Differential Expression for RNA-seq
 
+
+
 ## Learning outcomes
 
 - How can we visualise sample-to-sample relationships in our dataset?
@@ -122,6 +124,13 @@ BiocManager::install("DESeq2")
 -->
 
 # Week 5 - Visualisation methods for RNA-seq data
+
+**Please run this code before the session to download a fairly large R package**
+
+```
+if(!require(BiocManager)) install.packages("BiocManager")
+BiocManager::install(c("org.Hs.eg.db","pheatmap"))
+```
 
 ## Learning outcomes
 

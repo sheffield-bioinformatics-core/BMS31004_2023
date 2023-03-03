@@ -253,7 +253,71 @@ if (window.hljs) {
 
 
 
-<style type="text/css">body {font-family: Calibri, helvetica, sans-serif;font-size: 150%;max-width: 2000px;}body .main-container {max-width: 900px;}a:link { color: rgb(68, 0, 153); text-decoration: underline;}h1 {color: rgb(68, 0, 153);font-size: 200%;font-weight: bold;}h2 {color: rgb(68, 0, 153);font-size: 150%;font-weight: bold;}h3 {color: rgb(68, 0, 153);font-size: 125%;font-weight: bold;}h4 {color: rgb(68, 0, 153);font-size: 100%;font-weight: bold;font-style: italic;}.title {margin-right: 200px;font-size: 100%;}.exercise{font-family: Calibri, helvetica, sans-serif;width: 100%;height: 100%;background-color: rgb(154,219,232);color: rgb(68, 0, 153);}.information{font-family: Calibri, helvetica, sans-serif;width: 100%;height: 100%;background-color: rgb(154,219,232);color: rgb(68, 0, 153);a:link { color: white; }}.warning{font-family: Calibri, helvetica, sans-serif;width: 100%;height: 100%;background-color: rgb(154,219,232);color: rgb(68, 0, 153);a:link { color: white; }}div#information a:link { color: white; }div#warning a:link { color: white; }.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {background-color: rgb(55, 56, 149);}</style>
+<style type="text/css">
+body {
+font-family: Calibri, helvetica, sans-serif;
+font-size: 150%;
+max-width: 2000px;
+}
+body .main-container {
+max-width: 900px;
+}
+a:link { color: rgb(68, 0, 153); text-decoration: underline;
+}
+h1 {
+color: rgb(68, 0, 153);
+font-size: 200%;
+font-weight: bold;
+}
+h2 {
+color: rgb(68, 0, 153);
+font-size: 150%;
+font-weight: bold;
+}
+h3 {
+color: rgb(68, 0, 153);
+font-size: 125%;
+font-weight: bold;
+}
+h4 {
+color: rgb(68, 0, 153);
+font-size: 100%;
+font-weight: bold;
+font-style: italic;
+}
+.title {
+margin-right: 200px;
+font-size: 100%;
+}
+.exercise{
+font-family: Calibri, helvetica, sans-serif;
+width: 100%;
+height: 100%;
+background-color: rgb(154,219,232);
+color: rgb(68, 0, 153);
+}
+.information{
+font-family: Calibri, helvetica, sans-serif;
+width: 100%;
+height: 100%;
+background-color: rgb(154,219,232);
+color: rgb(68, 0, 153);
+a:link { color: white; }
+}
+.warning{
+font-family: Calibri, helvetica, sans-serif;
+width: 100%;
+height: 100%;
+background-color: rgb(154,219,232);
+color: rgb(68, 0, 153);
+a:link { color: white; }
+}
+div#information a:link { color: white; }
+div#warning a:link { color: white; }
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+background-color: rgb(55, 56, 149);
+}
+</style>
 
 
 
@@ -524,6 +588,10 @@ differential expression results?</li>
 </div>
 <div id="week-5---visualisation-methods-for-rna-seq-data" class="section level1">
 <h1>Week 5 - Visualisation methods for RNA-seq data</h1>
+<p><strong>Please run this code before the session to download a fairly
+large R package</strong></p>
+<pre><code>if(!require(BiocManager)) install.packages(&quot;BiocManager&quot;)
+BiocManager::install(c(&quot;org.Hs.eg.db&quot;,&quot;pheatmap&quot;))</code></pre>
 <div id="learning-outcomes-4" class="section level2">
 <h2>Learning outcomes</h2>
 <ul>
