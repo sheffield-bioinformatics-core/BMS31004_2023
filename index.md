@@ -98,6 +98,7 @@ BiocManager::install("DESeq2")
 ```
 - [RNA-seq data](https://github.com/sheffield-bioinformatics-core/BMS31004_2023/raw/main/BMS31004.zip)
 - [Notes for practical session](week3.nb.html)
+- [Solution to in-class exercise](solutions/week3_in_class.nb.html)
 - [Weekly Exercise](exercises/week3.nb.html)
 - [In-class final markdown](week3_final_code.Rmd)
 - [Solution to weekly exercise](solutions/week3.nb.html)
@@ -117,7 +118,9 @@ BiocManager::install("DESeq2")
 ## Materials
 
 - [Notes for practical session](week4.nb.html)
+- [Solution to in-class exercise](solutions/week4_in_class.nb.html)
 - [Weekly Exercise](exercises/week4.nb.html)
+- [Solution to weekly exercise](solutions/week4.nb.html)
 
 <!--- Solution to in-class exercises
 - Solution to Weekly Exercise
@@ -144,10 +147,11 @@ BiocManager::install(c("org.Hs.eg.db","pheatmap"))
 
 ## Materials
 
-<!--
+
 - [Notes for practical session](week5.nb.html)
-- Solution to in-class exercises
 - [Weekly Exercise](exercises/week5.nb.html)
+
+<!-- Solution to in-class exercises
 - Solution to Weekly Exercise
 -->
 

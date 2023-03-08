@@ -363,17 +363,23 @@ overflow-y: auto;
 border: 1px solid #ddd;
 border-radius: 4px;
 }
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-content: "\e259";
+.tabset-dropdown > .nav-tabs > li.active:before {
+content: "";
 font-family: 'Glyphicons Halflings';
 display: inline-block;
 padding: 10px;
 border-right: 1px solid #ddd;
 }
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-content: "\e258";
-font-family: 'Glyphicons Halflings';
+content: "";
 border: none;
+}
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+content: "";
+font-family: 'Glyphicons Halflings';
+display: inline-block;
+padding: 10px;
+border-right: 1px solid #ddd;
 }
 .tabset-dropdown > .nav-tabs > li.active {
 display: block;
@@ -555,6 +561,8 @@ BiocManager::install(&quot;DESeq2&quot;)</code></pre>
 <li><a href="https://github.com/sheffield-bioinformatics-core/BMS31004_2023/raw/main/BMS31004.zip">RNA-seq
 data</a></li>
 <li><a href="week3.nb.html">Notes for practical session</a></li>
+<li><a href="solutions/week3_in_class.nb.html">Solution to in-class
+exercise</a></li>
 <li><a href="exercises/week3.nb.html">Weekly Exercise</a></li>
 <li><a href="week3_final_code.Rmd">In-class final markdown</a></li>
 <li><a href="solutions/week3.nb.html">Solution to weekly
@@ -579,7 +587,11 @@ differential expression results?</li>
 <h2>Materials</h2>
 <ul>
 <li><a href="week4.nb.html">Notes for practical session</a></li>
+<li><a href="solutions/week4_in_class.nb.html">Solution to in-class
+exercise</a></li>
 <li><a href="exercises/week4.nb.html">Weekly Exercise</a></li>
+<li><a href="solutions/week4.nb.html">Solution to weekly
+exercise</a></li>
 </ul>
 <!--- Solution to in-class exercises
 - Solution to Weekly Exercise
@@ -608,10 +620,11 @@ BiocManager::install(c(&quot;org.Hs.eg.db&quot;,&quot;pheatmap&quot;))</code></p
 </div>
 <div id="materials-4" class="section level2">
 <h2>Materials</h2>
-<!--
-- [Notes for practical session](week5.nb.html)
-- Solution to in-class exercises
-- [Weekly Exercise](exercises/week5.nb.html)
+<ul>
+<li><a href="week5.nb.html">Notes for practical session</a></li>
+<li><a href="exercises/week5.nb.html">Weekly Exercise</a></li>
+</ul>
+<!-- Solution to in-class exercises
 - Solution to Weekly Exercise
 -->
 </div>
