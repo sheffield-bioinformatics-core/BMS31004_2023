@@ -363,17 +363,23 @@ overflow-y: auto;
 border: 1px solid #ddd;
 border-radius: 4px;
 }
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-content: "\e259";
+.tabset-dropdown > .nav-tabs > li.active:before {
+content: "";
 font-family: 'Glyphicons Halflings';
 display: inline-block;
 padding: 10px;
 border-right: 1px solid #ddd;
 }
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-content: "\e258";
-font-family: 'Glyphicons Halflings';
+content: "";
 border: none;
+}
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+content: "";
+font-family: 'Glyphicons Halflings';
+display: inline-block;
+padding: 10px;
+border-right: 1px solid #ddd;
 }
 .tabset-dropdown > .nav-tabs > li.active {
 display: block;
@@ -619,6 +625,8 @@ BiocManager::install(c(&quot;org.Hs.eg.db&quot;,&quot;pheatmap&quot;))</code></p
 <li><a href="solutions/week5_in_class.nb.html">Solution to in-class
 exercise</a></li>
 <li><a href="exercises/week5.nb.html">Weekly Exercise</a></li>
+<li><a href="solutions/week5.nb.html">Solution to weekly
+exercise</a></li>
 </ul>
 <!-- Solution to in-class exercises
 - Solution to Weekly Exercise
@@ -642,6 +650,8 @@ without having to use an p-value cut-offs</li>
 </div>
 <div id="materials-5" class="section level2">
 <h2>Materials</h2>
+<pre><code>install.packages(&quot;stringi&quot;)
+BiocManager::install(&quot;clusterProfiler&quot;)</code></pre>
 <!--
 - [Notes for practical session](week6.nb.html)
 - Solution to in-class exercises

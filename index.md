@@ -151,6 +151,7 @@ BiocManager::install(c("org.Hs.eg.db","pheatmap"))
 - [Notes for practical session](week5.nb.html)
 - [Solution to in-class exercise](solutions/week5_in_class.nb.html)
 - [Weekly Exercise](exercises/week5.nb.html)
+- [Solution to weekly exercise](solutions/week5.nb.html)
 
 <!-- Solution to in-class exercises
 - Solution to Weekly Exercise
@@ -167,6 +168,11 @@ BiocManager::install(c("org.Hs.eg.db","pheatmap"))
 
 
 ## Materials
+
+```
+install.packages("stringi")
+BiocManager::install("clusterProfiler")
+```
 
 <!--
 - [Notes for practical session](week6.nb.html)
