@@ -169,13 +169,14 @@ BiocManager::install(c("org.Hs.eg.db","pheatmap"))
 
 ## Materials
 
+**Please run this code before the session to download a fairly large R package**
+
+
 ```
 install.packages("stringi")
 BiocManager::install("clusterProfiler")
 ```
 
-<!--
 - [Notes for practical session](week6.nb.html)
-- Solution to in-class exercises
-- [Minimal Analysis Workflow](minimal_workflow.Rmd)
--->
+<!--- Solution to in-class exercises
+- [Minimal Analysis Workflow](minimal_workflow.Rmd)-->
